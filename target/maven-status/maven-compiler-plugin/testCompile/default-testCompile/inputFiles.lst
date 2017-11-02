@@ -1,0 +1,6 @@
+/Users/banghona/Workspace/SpotFleetBambooPlugin/src/test/java/ut/AwsSpotFleetBambooPlugin/ConfiguratorValidationUnitTest.java
+/Users/banghona/Workspace/SpotFleetBambooPlugin/src/test/java/ut/AwsSpotFleetBambooPlugin/AgentTeardownTest.java
+/Users/banghona/Workspace/SpotFleetBambooPlugin/src/test/java/ut/AwsSpotFleetBambooPlugin/AutoscalerUnitTest.java
+/Users/banghona/Workspace/SpotFleetBambooPlugin/src/test/java/ut/AwsSpotFleetBambooPlugin/MakeScalingDecisionUnitTest.java
+/Users/banghona/Workspace/SpotFleetBambooPlugin/src/test/java/ut/AwsSpotFleetBambooPlugin/ConfiguratorUnitTest.java
+/Users/banghona/Workspace/SpotFleetBambooPlugin/src/test/java/ut/AwsSpotFleetBambooPlugin/TerminateFleetUnitTest.java

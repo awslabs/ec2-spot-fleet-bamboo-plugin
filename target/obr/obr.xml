@@ -1,0 +1,60 @@
+<repository lastmodified='20171102113659.587'>
+  <resource id='AwsSpotFleetBambooPlugin/1.0.0.SNAPSHOT' symbolicname='AwsSpotFleetBambooPlugin' presentationname='AwsSpotFleetBambooPlugin' uri='AwsSpotFleetBambooPlugin-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <description>This is the AwsSpotFleetBambooPlugin for Atlassian Bamboo.</description>
+    <size>277160</size>
+    <documentation>https://aws.amazon.com</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='AwsSpotFleetBambooPlugin'/>
+      <p n='presentationname' v='AwsSpotFleetBambooPlugin'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.springframework.osgi.context))' extend='false' multiple='false' optional='true'>Import package org.springframework.osgi.context;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.springframework.osgi.service.exporter.support))' extend='false' multiple='false' optional='true'>Import package org.springframework.osgi.service.exporter.support;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.springframework.osgi.service.importer.support))' extend='false' multiple='false' optional='true'>Import package org.springframework.osgi.service.importer.support;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.gemini.blueprint.context))' extend='false' multiple='false' optional='true'>Import package org.eclipse.gemini.blueprint.context;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.gemini.blueprint.service.exporter))' extend='false' multiple='false' optional='true'>Import package org.eclipse.gemini.blueprint.service.exporter;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.gemini.blueprint.service.exporter.support))' extend='false' multiple='false' optional='true'>Import package org.eclipse.gemini.blueprint.service.exporter.support;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.eclipse.gemini.blueprint.service.importer.support))' extend='false' multiple='false' optional='true'>Import package org.eclipse.gemini.blueprint.service.importer.support;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=com.amazonaws))' extend='false' multiple='false' optional='false'>Import package com.amazonaws</require>
+    <require name='package' filter='(&amp;(package=com.amazonaws.auth))' extend='false' multiple='false' optional='false'>Import package com.amazonaws.auth</require>
+    <require name='package' filter='(&amp;(package=com.amazonaws.regions))' extend='false' multiple='false' optional='false'>Import package com.amazonaws.regions</require>
+    <require name='package' filter='(&amp;(package=com.amazonaws.services.ec2))' extend='false' multiple='false' optional='false'>Import package com.amazonaws.services.ec2</require>
+    <require name='package' filter='(&amp;(package=com.amazonaws.services.ec2.model))' extend='false' multiple='false' optional='false'>Import package com.amazonaws.services.ec2.model</require>
+    <require name='package' filter='(&amp;(package=com.amazonaws.services.ec2.model.transform))' extend='false' multiple='false' optional='false'>Import package com.amazonaws.services.ec2.model.transform</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.build))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.build</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.build.logger))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.build.logger</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.buildqueue.manager))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.buildqueue.manager</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.collections))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.collections</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.configuration))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.configuration</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.plan))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.plan</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.task))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.task</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.utils.error))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.utils.error</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.v2.build))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.v2.build</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.v2.build.agent))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.v2.build.agent</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bamboo.v2.build.queue))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bamboo.v2.build.queue</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.osgi.factory))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.osgi.factory</require>
+    <require name='package' filter='(&amp;(package=com.google.common.base))' extend='false' multiple='false' optional='false'>Import package com.google.common.base</require>
+    <require name='package' filter='(&amp;(package=com.google.common.collect))' extend='false' multiple='false' optional='false'>Import package com.google.common.collect</require>
+    <require name='package' filter='(&amp;(package=com.opensymphony.xwork))' extend='false' multiple='false' optional='false'>Import package com.opensymphony.xwork</require>
+    <require name='package' filter='(&amp;(package=javax.annotation))' extend='false' multiple='false' optional='false'>Import package javax.annotation</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.logging</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework</require>
+    <require name='package' filter='(&amp;(package=org.springframework.aop.support))' extend='false' multiple='false' optional='false'>Import package org.springframework.aop.support</require>
+    <require name='package' filter='(&amp;(package=org.springframework.beans))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans</require>
+    <require name='package' filter='(&amp;(package=org.springframework.beans.factory))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory</require>
+    <require name='package' filter='(&amp;(package=org.springframework.beans.factory.annotation))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory.annotation</require>
+    <require name='package' filter='(&amp;(package=org.springframework.beans.factory.config))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory.config</require>
+    <require name='package' filter='(&amp;(package=org.springframework.beans.factory.parsing))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory.parsing</require>
+    <require name='package' filter='(&amp;(package=org.springframework.beans.factory.support))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory.support</require>
+    <require name='package' filter='(&amp;(package=org.springframework.beans.factory.xml))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory.xml</require>
+    <require name='package' filter='(&amp;(package=org.springframework.context.annotation))' extend='false' multiple='false' optional='false'>Import package org.springframework.context.annotation</require>
+    <require name='package' filter='(&amp;(package=org.springframework.core.io))' extend='false' multiple='false' optional='false'>Import package org.springframework.core.io</require>
+    <require name='package' filter='(&amp;(package=org.springframework.stereotype))' extend='false' multiple='false' optional='false'>Import package org.springframework.stereotype</require>
+    <require name='package' filter='(&amp;(package=org.springframework.util))' extend='false' multiple='false' optional='false'>Import package org.springframework.util</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=sun.misc))' extend='false' multiple='false' optional='true'>Import package sun.misc;resolution:=optional</require>
+  </resource>
+</repository>

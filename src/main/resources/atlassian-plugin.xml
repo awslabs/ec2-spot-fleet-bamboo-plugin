@@ -1,0 +1,31 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}"
+	plugins-version="2">
+	<plugin-info>
+		<description>${project.description}</description>
+		<version>${project.version}</version>
+		<vendor name="${project.organization.name}" url="${project.organization.url}" />
+		<param name="plugin-icon">images/pluginIcon.png</param>
+		<param name="plugin-logo">images/pluginLogo.png</param>
+	</plugin-info>
+	<!-- add our web resources -->
+	<web-resource key="AwsSpotFleetBambooPlugin-resources"
+		name="AwsSpotFleetBambooPlugin Web Resources">
+		<dependency>com.atlassian.auiplugin:ajs</dependency>
+		<resource type="download" name="AwsSpotFleetBambooPlugin.css"
+			location="/css/spot.css" />
+		<resource type="download" name="AwsSpotFleetBambooPlugin.js"
+			location="/js/spot.js" />
+		<resource type="download" name="images/" location="/images" />
+		<context>AwsSpotFleetBambooPlugin</context>
+	</web-resource>
+	<taskType name="Autoscale Spot Fleet"
+		class="AwsSpotFleetBambooPlugin.SpotFleetTaskExecution" key="test">
+		<description>Autoscale a Spot Fleet based on build status</description>
+		<!-- Categories available in 3.1: "builder", "test" and "deployment" <category
+			name=""/> -->
+		<configuration class="AwsSpotFleetBambooPlugin.SpotFleetConfigurator" />
+		<help link="https://github.com/awslabs/ec2-spot-fleet-bamboo-plugin" title="How to use this task" />
+		<resource type="freemarker" name="edit" location="ftl/editSpotFleet.ftl" />
+	</taskType>
+
+</atlassian-plugin>

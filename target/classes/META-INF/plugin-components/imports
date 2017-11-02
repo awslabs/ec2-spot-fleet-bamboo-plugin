@@ -1,0 +1,4 @@
+com.atlassian.bamboo.build.BuildExecutionManager
+com.atlassian.bamboo.buildqueue.manager.AgentManager
+com.atlassian.bamboo.configuration.AdministrationConfigurationAccessor
+com.atlassian.bamboo.v2.build.queue.BuildQueueManager

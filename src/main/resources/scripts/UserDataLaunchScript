@@ -1,0 +1,12 @@
+#!/bin/bash
+sudo yum -y install java-1.8.0-openjdk-devel
+sudo yum -y remove java-1.7.0-openjdk
+sudo yum -y install git
+sudo yum -y install mercurial
+sudo yum -y install ant
+wget -A jar -m -p -K -np -O agentInstaller.jar SERVER_URL/agentServer/agentInstaller/
+for i in {1..2}
+do
+  nohup java -Dbamboo.home=RemoteAgentHome$i -jar agentInstaller.jar SERVER_URL/agentServer/ &
+done
+exit 0

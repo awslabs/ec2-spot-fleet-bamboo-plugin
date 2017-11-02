@@ -1,0 +1,1 @@
+http\://www.atlassian.com/schema/atlassian-scanner=com.atlassian.plugin.spring.scanner.extension.AtlassianScannerNamespaceHandler
