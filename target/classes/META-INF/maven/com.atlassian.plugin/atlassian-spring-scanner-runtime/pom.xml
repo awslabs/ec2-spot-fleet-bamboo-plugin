@@ -21,7 +21,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <!-- need version which supports JDK 8 to load spring context from xml file -->
-            <version>2.5.6.SEC03-atlassian-2</version>
+            <version>4.3.19.RELEASE</version>
             <scope>test</scope>
         </dependency>
 
